@@ -85,5 +85,5 @@ app.post('/new', upload.single('file'), (req, res, err) => {
 })
 
 app.listen(process.env.PORT, () => {
-  'Listening'
+  console.log('Listening')
 })
